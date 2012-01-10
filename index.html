@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- Conditional comment for mobile ie7 http://blogs.msdn.com/b/iemobile/ -->
 <!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
 <!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title></title>
+  <title>HTML5 Mobile Boilerplate + Skeleton</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,6 +37,10 @@
   <meta http-equiv="cleartype" content="on">
 
   <!-- more tags for your 'head' to consider https://gist.github.com/849231 -->
+  <!-- Skeleton Stylesheets -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css?v=1">
@@ -62,13 +66,13 @@
 
 
   <!-- JavaScript at the bottom for fast page loading -->
+  <script src="js/libs/zepto-0.8.min.js"></script>
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  <!-- external CDN hosted libraries go here (ie: backbone, underscore, json2) -->
 
   <!-- scripts concatenated and minified via ant build script -->
   <script src="js/mylibs/helper.js"></script>
+  <script src="js/libs/skeleton-tabs.js"></script>  
   <!-- end concatenated and minified scripts-->
 
   <script>
